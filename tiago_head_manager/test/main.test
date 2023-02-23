@@ -1,0 +1,9 @@
+<launch>
+    <node name="tiago_head_manager" pkg="tiago_head_manager" type="tiago_head_manager"/>
+    <arg name='TESTDURATION' value='120' />
+    <test test-name="tests_tiago_head_manager" pkg="tiago_head_manager" type="tests_tiago_head_manager"
+        time-limit="$(arg TESTDURATION)"
+        retry="10"
+        args="--gtest_shuffle"
+    />
+</launch>

@@ -1,0 +1,5 @@
+StateMachineStatePitchYaw[] states_PitchYaw
+StateMachineStatePoint[] states_Point
+StateMachineStatePrioritizedPitch[] states_PrioritizedPitch
+StateMachineStatePrioritizedYaw[] states_PrioritizedYaw
+StateMachineStatePrioritizedTrajectory[] states_PrioritizedTrajectory

@@ -1,0 +1,2 @@
+resource_management_msgs/MessagePriority priority
+trajectory_msgs/JointTrajectory data
